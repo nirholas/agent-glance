@@ -2,18 +2,16 @@
 
 > Put a three.ws agent on any surface that has a slot: home screen widgets, README badges, Slack unfurls, and a live <agent-glance> web component.
 
-@three-ws/agent-glance is a JavaScript library from three.ws. Install: `npx -y @three-ws/agent-glance`.
+- Repository: https://github.com/nirholas/agent-glance
+- Documentation: https://nirholas.github.io/agent-glance/
+- npm: https://www.npmjs.com/package/@three-ws/agent-glance
+- License: Apache-2.0
+- Part of three.ws: https://three.ws
 
 ## Docs
 
-- [README](https://github.com/nirholas/agent-glance/blob/main/README.md): install, configuration, full reference
-- [Documentation site](https://nirholas.github.io/agent-glance/): the README as a web page
-- [Full text for LLMs](https://nirholas.github.io/agent-glance/llms-full.txt): README inlined
-- [AGENTS.md](https://github.com/nirholas/agent-glance/blob/main/AGENTS.md): guidance for coding agents
-
-## Project
-
-- [Source](https://github.com/nirholas/agent-glance)
-- [npm](https://www.npmjs.com/package/@three-ws/agent-glance)
-- [three.ws](https://three.ws): the platform this is part of
-- [Issues](https://github.com/nirholas/agent-glance/issues)
+- [README](https://github.com/nirholas/agent-glance/blob/main/README.md): install, usage and full API reference
+- [Full text for LLMs](https://nirholas.github.io/agent-glance/llms-full.txt): the entire README as plain text
+- [AGENTS.md](https://github.com/nirholas/agent-glance/blob/main/AGENTS.md): conventions for coding agents
+- [Security policy](https://github.com/nirholas/agent-glance/blob/main/SECURITY.md)
+- [Contributing](https://github.com/nirholas/agent-glance/blob/main/CONTRIBUTING.md)

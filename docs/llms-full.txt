@@ -1,26 +1,11 @@
 # @three-ws/agent-glance
 
-> Put a three.ws agent on any surface that has a slot: home screen widgets, README badges, Slack unfurls, and a live <agent-glance> web component.
-
-@three-ws/agent-glance is a JavaScript library from three.ws. Install: `npx -y @three-ws/agent-glance`.
-
-## Docs
-
-- [README](https://github.com/nirholas/agent-glance/blob/main/README.md): install, configuration, full reference
-- [Documentation site](https://nirholas.github.io/agent-glance/): the README as a web page
-- [Full text for LLMs](https://nirholas.github.io/agent-glance/llms-full.txt): README inlined
-- [AGENTS.md](https://github.com/nirholas/agent-glance/blob/main/AGENTS.md): guidance for coding agents
-
-## Project
-
-- [Source](https://github.com/nirholas/agent-glance)
-- [npm](https://www.npmjs.com/package/@three-ws/agent-glance)
-- [three.ws](https://three.ws): the platform this is part of
-- [Issues](https://github.com/nirholas/agent-glance/issues)
-
----
-
-# @three-ws/agent-glance
+![npm](https://www.npmjs.com/package/@three-ws/agent-glance)
+![license](LICENSE)
+![node](package.json)
+![zero deps](package.json)
+![docs](https://nirholas.github.io/agent-glance/)
+![part of three.ws](https://three.ws)
 
 **Put a three.ws agent on any surface that has a slot.** Home screen widgets,
 README badges, Slack unfurls, terminal dashboards, and a live `<agent-glance>`
@@ -55,7 +40,7 @@ console.log(card.name, card.metric.value, card.metric.label);
 import { glanceMarkdown } from '@three-ws/agent-glance';
 
 glanceMarkdown(agentId, { size: 'medium', theme: 'auto' });
-// [![three.ws agent](https://three.ws/api/glance/card?agent=...&format=svg&size=medium&theme=auto)](https://three.ws/agents/...)
+// ![three.ws agent](https://three.ws/agents/...)
 ```
 
 The SVG endpoint is the one for any host that only takes a picture: a README, a
@@ -128,12 +113,16 @@ All fetching functions take `{ origin, timeoutMs, signal, fetchImpl }`. Pass
 
 ## Related
 
-- The live playground and install guide: [three.ws/glance](https://three.ws/glance)
-- Docs: [three.ws/docs/glance](https://three.ws/docs/glance)
-- The wire format: [specs/GLANCE_CARD.md](https://github.com/nirholas/three.ws/blob/main/specs/GLANCE_CARD.md)
-- Embeddable 3D avatars, a different product (the agent's body, on your page): [three.ws/widgets](https://three.ws/widgets)
-- [`STRUCTURE.md`](../../STRUCTURE.md): where every three.ws surface lives.
+- The live playground and install guide: three.ws/glance
+- Docs: three.ws/docs/glance
+- The wire format: specs/GLANCE_CARD.md
+- Embeddable 3D avatars, a different product (the agent's body, on your page): three.ws/widgets
+- `STRUCTURE.md`: where every three.ws surface lives.
 
 ## License
 
 Apache-2.0
+
+---
+
+Part of three.ws, the open-source platform for 3D AI agents. This repository is exported from the monorepo, which is the source of truth: open issues here, and send larger changes there.
