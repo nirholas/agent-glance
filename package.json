@@ -1,0 +1,47 @@
+{
+	"name": "@three-ws/agent-glance",
+	"version": "0.1.0",
+	"description": "Put a three.ws agent on any surface that has a slot: home screen widgets, README badges, Slack unfurls, and a live <agent-glance> web component.",
+	"keywords": [
+		"three.ws",
+		"agent",
+		"widget",
+		"home-screen",
+		"adaptive-card",
+		"web-component",
+		"svg",
+		"badge",
+		"pwa",
+		"ai-agents"
+	],
+	"author": "three.ws <support@three.ws> (https://three.ws)",
+	"license": "Apache-2.0",
+	"homepage": "https://nirholas.github.io/agent-glance/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/agent-glance.git"
+	},
+	"type": "module",
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"bin": {
+		"agent-glance": "./bin/agent-glance.js"
+	},
+	"files": [
+		"src",
+		"bin",
+		"README.md",
+		"LICENSE"
+	],
+	"engines": {
+		"node": ">=18"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/agent-glance/issues"
+	}
+}
